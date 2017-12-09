@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <title>Trivia game</title>
+</head>
+  <body>
+    
+  <title>Timing Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="start">  
+    <h1>Trivia Game</h1>
+    <hr>
+    <br>
+    <br>
+    <h3 style = "background color: #f9b1b1;">Instructions: 
+      <h4 style: "text-align: center; ">5 questions will be displayed for you to answer, answer them as fast as you can within 20 seconds. Click <strong>Start</strong> to begin when you are ready. Good Luck!</h4>
+    </h3>
+    <br> 
+    <button><strong>Start</strong></button>
+  </div>
+
+<div id ="hid" class="container">
+ <h1 id="timer">Timer:</h1>
+ <ol>
+    <li>
+    <p><strong>Which NFL team won the game last year?</strong></p>
+  <form id ="quiz">
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question1" value="Chicago">Chicago Bears
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question1" value="NewEngland">New England Patriots
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio"  name ="Question1"value="Denver">Denver Broncos
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question1" value="Dallas">Dallas Cowboys
+    </label>
+  </li>
+</form id ="quiz">
+    <li>
+    <p><strong>What is the diameter of Earth?</strong></p>
+  <form>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question2" value="8000">8000 Miles
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question2"  value="11000">11,000 Miles
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question2"  value="8500">8,500 Miles 
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question2"  value="7500">7,500 Miles
+    </label>
+  </li>
+</form id ="quiz">
+    <li>
+   <p><strong>Name the world's largest ocean. </strong></p>
+  <form>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question3"  value="Atlantic">Atlantic
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question3" value="Pacific">Pacific 
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question3" value="Indian">Indian
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question3" value="Southern">Southern 
+    </label>
+  </li>
+</form id ="quiz">
+    <li>
+    <p><strong>Which Sport does Lebron James play?</strong></p>
+  <form>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question4" value="Baseball">Baseball
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question4" value="Football">Football
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question4" value="Basketball">Basketball
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question4" value="Golf">Golf
+    </label>
+  </li>
+  </ul>
+</form id ="quiz">
+    <li>
+    <p><strong>When did the Cold War end? </strong></p>
+  <form>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question5" value="1945">1945
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question5" value="1965">1965
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question5" value="1918">1918
+    </label>
+    <label class="checkbox-inline">
+      <input type="radio" name ="Question5" value="1989">1989
+    </label>
+  </li>
+</form>
+<div id = "score" style= "text-align: center"></div>
+<ol>
+</div>
+</body>
+</html>

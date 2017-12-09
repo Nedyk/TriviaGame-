@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <title>Trivia game</title>
+</head>
+  <body>
+    <div>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <style type="text/css">
+  body{
+    background-color: purple;
+  }
+  .container{
+    width: 600px; 
+    height: 500px;
+    background-color: #eeedef;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    margin: auto; 
+    border: 2px solid black; 
+  }
+  p{
+     font-family: sans-serif;
+    background-color: #e5e4e0;
+    font-size: 15px;
+    text-align: left;
+    color: #1c1a1a;
+    padding: 2px 0px; 
+    border-radius: 50px; 
+  }
+  h1{
+    text-align: center;
+    background-color: #f7f4f4;
+
+  }
+ input:hover{
+    cursor: pointer;
+    background-color: blue;
+  }
+  #hid{
+    visibility: visible;
+  }
+  #start{
+    text-align: center;
+    padding-top: 30px;
+   
+  }
+  button{
+     background-color: #c4b4b4;
+     font-size: 50px;
+  }
+  label{
+    text-align: center;
+  }
+  </style>
